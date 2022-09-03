@@ -22,7 +22,7 @@ This project aims to predict the probability a customer will churn.
 - Create a virtual environment using conda or pyenv
 - clone the repository
 - run `pip3 install -r requirements.txt` to install the all the dependencies
-- run `pytest .` to make sure all the functions work as expected
+- run `pytest test_churn_library.py` to make sure all the functions work as expected. The test result is logged in `./logs/churn_library.log`
 - run `python3 main.py` to execute the whole pipeline. This results in EDA figures as well as classification reports/plots to be saved to the `./images` folder as well as model (in the form of pickle files) to be saved in `./models` folder
 
 
